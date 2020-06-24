@@ -64,3 +64,4 @@ exclude:
 - CNAME
 - icomoon-selection.json
 - readme.md
+encoding: UTF-8

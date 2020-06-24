@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.summary       = "This is another theme used to test Jekyll"
   s.authors       = ["Jekyll"]
   s.files         = ["lib/example.rb"]
-  s.homepage      = "https://github.com/jekyll/jekyll"
+  s.homepage      = "https://github.com/jekyllresources/jekyllresources.github.io"
 
   s.add_runtime_dependency "jekyll_test_plugin"
 end
