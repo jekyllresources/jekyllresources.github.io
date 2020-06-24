@@ -19,7 +19,7 @@ task :release => :build do
   sh "git push origin v#{version}"
   sh "gem push pkg/#{name}-#{version}.gem"
   puts "Do not forget to build and release the docs gem as well."
-  puts "https://github.com/jekyllresource/jekyllresource.github.io#releasing"
+  puts "https://github.com/jekyllresources/jekyllresources.github.io#releasing"
 end
 
 desc "Build #{name} v#{version} into pkg/"

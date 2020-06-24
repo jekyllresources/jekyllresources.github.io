@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.license       = "MIT"
   s.authors       = ["Tom Preston-Werner", "Parker Moore", "Matt Rogers"]
   s.email         = ["maintainers@jekyllrb.com"]
-  s.homepage      = "https://jekyllresource.github.io"
+  s.homepage      = "https://jekyllresources.github.io"
   s.summary       = "A simple, blog aware, static site generator."
   s.description   = "Jekyll is a simple, blog aware, static site generator."
 
@@ -20,9 +20,9 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.metadata      = {
-    "source_code_uri" => "https://github.com/jekyllresource/jekyllresource.github.io",
-    "bug_tracker_uri" => "https://github.com/jekyllresource/jekyllresource.github.io/issues",
-    "changelog_uri"   => "https://github.com/jekyllresource/jekyllresource.github.io/releases",
+    "source_code_uri" => "https://github.com/jekyllresources/jekyllresources.github.io",
+    "bug_tracker_uri" => "https://github.com/jekyllresources/jekyllresources.github.io/issues",
+    "changelog_uri"   => "https://github.com/jekyllresources/jekyllresources.github.io/releases",
     "homepage_uri"    => s.homepage,
   }
 
