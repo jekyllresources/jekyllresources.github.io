@@ -142,21 +142,6 @@ Rake::RDocTask.new do |rdoc|
   rdoc.rdoc_files.include("lib/**/*.rb")
 end
 
-begin
-  require "cucumber/rake/task"
-  Cucumber::Rake::Task.new(:features) do |t|
-    t.profile = "travis"
-  end
-  Cucumber::Rake::Task.new(:"features:html", "Run Cucumber features and produce HTML output") do |t|
-    t.profile = "html_report"
-  end
-rescue LoadError
-  desc "Cucumber rake task not available"
-  task :features do
-    abort "Cucumber rake task is not available. Be sure to install cucumber as a gem or plugin"
-  end
-end
-
 desc "Open an irb session preloaded with this library"
 task :console do
   sh "irb -rubygems -r ./lib/#{name}.rb"

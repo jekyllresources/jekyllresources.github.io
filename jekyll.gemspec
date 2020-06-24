@@ -14,7 +14,6 @@ Gem::Specification.new do |s|
   s.description   = "Jekyll is a simple, blog aware, static site generator."
 
   all_files       = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
-  s.files         = all_files.grep(%r!^(exe|lib|rubocop)/|^.rubocop.yml$!)
   s.executables   = all_files.grep(%r!^exe/!) { |f| File.basename(f) }
   s.bindir        = "exe"
   s.require_paths = ["lib"]
