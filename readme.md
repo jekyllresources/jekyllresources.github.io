@@ -1,5 +1,16 @@
 # Jekyll docs site
 
+## Tools
+
+###
+
+###
+
+### Jekyll e wordpress
+
+- https://www.unixtutorial.org/project-follow-up-wordpress-blog-to-jekyll/
+- https://www.smashingmagazine.com/2017/04/jekyll-wordpress-developers/
+
 This directory contains the code for the Jekyll docs site, [jekyllrb.com](https://jekyllrb.com/).
 
 ## Contributing
