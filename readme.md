@@ -7,7 +7,9 @@
 - https://jekyllcodex.org/without-plugin/cookie-consent/
 - https://www.osano.com/cookieconsent/
 
-###
+### Docs
+
+- https://learn.cloudcannon.com/jekyll-cheat-sheet/
 
 ### Jekyll e wordpress
 
