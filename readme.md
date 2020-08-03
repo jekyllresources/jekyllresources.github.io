@@ -5,6 +5,7 @@
 ### Cookie consent
 
 - https://jekyllcodex.org/without-plugin/cookie-consent/
+- https://www.osano.com/cookieconsent/
 
 ###
 
