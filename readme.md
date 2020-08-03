@@ -10,6 +10,7 @@
 ### Docs
 
 - https://learn.cloudcannon.com/jekyll-cheat-sheet/
+- https://jekyllup.com/
 
 ### Jekyll e wordpress
 
