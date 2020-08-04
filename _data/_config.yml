@@ -1,0 +1,111 @@
+---
+version: 4.1.1
+name: Jekyll • Simple, blog-aware, static sites
+description: Transform your plain text into static websites and blogs
+url: https://jekyllresources.github.io
+repository: https://github.com/jekyllresources/jekyllresources.github.io
+timezone: Europe/Rome
+title: Your awesome title
+author:
+  name: Antonio Trento
+  email: lantoniotrento@gmail.com
+show_excerpts: false # set to true to show excerpts on the homepage
+  # generate social links in footer
+  social_links:
+    twitter: barbajekyll
+    github:  branajekyll
+    # devto: jekyll
+    # dribbble: jekyll
+    # facebook: jekyll
+    # flickr:   jekyll
+    # instagram: jekyll
+    # linkedin: jekyll
+    # pinterest: jekyll
+    # youtube: jekyll
+    # youtube_channel: UC8CXR0-3I70i1tfPg1PAE1g
+    # youtube_channel_name: CloudCannon
+    # telegram: jekyll
+    # googleplus: +jekyll
+    # microdotblog: jekyll
+    # keybase: jekyll
+
+    # Mastodon instances
+    # mastodon:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+    # GitLab instances
+    # gitlab:
+    # - username: jekyll
+    #   instance: example.com
+    # - username: jekyll2
+    #   instance: example.com
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md<!-- Global site tag (gtag.js) - Google Analytics -->
+
+twitter:
+  username: barbajekyll
+  card: summary_large_image
+logo: "/img/logo-2x.png"
+google_tag_id: UA-172632574-1 # tag manager for now GTM-KRPZDXN
+google_analytics_id: UA-172632574-1
+google_site_verification:
+collections:
+  docs:
+    permalink: "/:collection/:path/"
+    output: true
+  posts:
+    permalink: "/news/:year/:month/:day/:title/"
+    output: true
+  tutorials:
+    permalink: "/:collection/:path/"
+    output: true
+defaults:
+- scope:
+    path: _docs
+    type: docs
+  values:
+    layout: docs
+- scope:
+    path: _posts
+    type: posts
+  values:
+    layout: news_item
+- scope:
+    path: _tutorials
+    type: tutorials
+  values:
+    layout: tutorials
+- scope:
+    path: ''
+  values:
+    image: "/img/jekyll-og.png"
+future: true
+plugins:
+- jekyll-avatar
+- jekyll-feed
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+feed:
+  categories:
+  - release
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: plaintext
+sass:
+  style: compressed
+strict_front_matter: true
+exclude:
+- ".gitignore"
+- ".jekyll-cache"
+- CNAME
+- icomoon-selection.json
+- readme.md
