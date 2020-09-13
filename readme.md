@@ -1,3 +1,5 @@
+https://github.com/planetjekyll/awesome-jekyll-plugins
+
 https://pages.github.com/versions/
 
 
